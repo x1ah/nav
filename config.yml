@@ -45,6 +45,9 @@ content:
         - name: 需要我帮你百度一下吗
           description: 需要我帮你百度一下吗生成器
           url: https://when.run/lmbdfy.html
+        - name: misaka ping
+          description: 多点 Ping 工具
+          url: https://ping.sx/ping
         - name: 少数派
           description: 高效工作，品质生活
           url: https://sspai.com/
