@@ -4,6 +4,9 @@ title: 我的导航站
 # description of website
 description: x1ah's navigation site
 
+# favicon of website
+favicon: "https://github.com/x1ah.png?size=40"
+
 # your website url
 url: https://x1ah.github.io/nav/
 
