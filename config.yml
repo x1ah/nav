@@ -1,17 +1,17 @@
 # title of website
-title: %NAME%
+title: nav
 
 # description of website
-description: %NAME%'s navigation site
+description: nav's navigation site
 
 # your website url
-url: https://%ACTOR%.github.io/%NAME%/
+url: https://x1ah.github.io/nav/
 
 # github profile url
-github: "https://github.com/%ACTOR%"
+github: "https://github.com/x1ah"
 
 # footer message
-footer: © 2021-2021 @%ACTOR%
+footer: © 2021-2021 @x1ah
 
 # template(theme) of your site, available:
 # 1. webstack (http://webstack.cc)
