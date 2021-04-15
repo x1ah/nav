@@ -18,7 +18,7 @@ footer: © 2021-2021 @x1ah
 template: webstack
 
 # Google analytics
-google_analytics: "G-EXE1PJ8CR2"
+google_analytics: G-EXE1PJ8CR2
 
 content:
   categories:
@@ -444,9 +444,6 @@ content:
         - name: stokpic
           description: Free Stock Photos For Commercial Use
           url: http://stokpic.com/
-        - name: 55mm
-          description: Use our FREE photos to tell your story!
-          url: https://55mm.co/visuals
         - name: thestocks
           description: Use our FREE photos to tell your story!
           url: http://thestocks.im/
