@@ -133,6 +133,9 @@ content:
         - name: 黄简艺术工作室
           description: 很完善的一套书法教程
           url: http://www.chinese-artists.net/huangjian/lessons/index.html
+        - name: 菜鸟教程
+          description: 入门教程合集
+          url: https://www.runoob.com/
     - name: 有意思的网站
       sites:
         - name: 秘密花园
