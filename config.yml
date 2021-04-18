@@ -42,6 +42,9 @@ content:
         - name: Lobsters
           description: 技术论坛
           url: https://lobste.rs/
+        - name: 斗鱼
+          description: 直播平台
+          url: https://www.douyu.com/
         - name: 小霸王
           description: 在线小霸王游戏机
           url: https://www.yikm.net/
