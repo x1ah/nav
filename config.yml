@@ -68,7 +68,6 @@ content:
         - name: ip.sb
           description: IP 获取
           url: https://ip.sb/
-          
     - name: 论坛社区
       sites:
         - name: 虎扑步行街
@@ -131,6 +130,9 @@ content:
         - name: 扫雷
           description: 网页版扫雷，开箱即用
           url: http://www.cctvjs.net/mine/
+        - name: 斗鱼
+          description: 直播平台
+          url: https://www.douyu.com/
     - name: 学习资源
       sites:
         - name: Leetcode
