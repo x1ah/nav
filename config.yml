@@ -48,15 +48,24 @@ content:
         - name: 需要我帮你百度一下吗
           description: 需要我帮你百度一下吗生成器
           url: https://when.run/lmbdfy.html
-        - name: misaka ping
-          description: 多点 Ping 工具
-          url: https://ping.sx/ping
-        - name: 少数派
-          description: 高效工作，品质生活
-          url: https://sspai.com/
         - name: Google Analytics
           description: Google Analytics 分析
           url: https://analytics.google.com/analytics/web/
+    - name: 技术工具
+      sites:
+        - name: misaka ping
+          description: 多点 Ping 工具
+          url: https://ping.sx/ping
+        - name: JSON Editor Online
+          description: JSON 工具，可以对比两个 JSON，以及分享 JSON 片段
+          url: https://jsoneditoronline.org/
+        - name: Excalidraw
+          description: 流程图工具，可以画手写风格的图表
+          url: https://excalidraw.com/
+        - name: ip.sb
+          description: IP 获取
+          url: https://ip.sb/
+          
     - name: 论坛社区
       sites:
         - name: 虎扑步行街
