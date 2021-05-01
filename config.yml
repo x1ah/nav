@@ -29,9 +29,9 @@ webstack:
       - google
       - github
       - baidu
-      - zhihu
       - weibo
       - bilibili
+      - zhihu
 
 # Google analytics
 google_analytics: G-EXE1PJ8CR2
