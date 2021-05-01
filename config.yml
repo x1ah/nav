@@ -20,6 +20,19 @@ footer: © 2021-2021 @x1ah
 # 1. webstack (http://webstack.cc)
 template: webstack
 
+webstack:
+  search:
+    enabled: true
+    default: google
+    # 可选的搜索引擎
+    engines:
+      - google
+      - github
+      - baidu
+      - zhihu
+      - weibo
+      - bilibili
+
 # Google analytics
 google_analytics: G-EXE1PJ8CR2
 
