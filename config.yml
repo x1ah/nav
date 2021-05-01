@@ -28,8 +28,8 @@ webstack:
     engines:
       - google
       - github
-      - baidu
       - weibo
+      - baidu
       - bilibili
       - zhihu
 
