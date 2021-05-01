@@ -38,7 +38,7 @@ function search() {
         "thisSearch": "https://www.google.com/search?q=",
         "thisSearchIcon": "https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png",
         "hotStatus": true,
-        "data": [{"name":"谷歌","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -105px 0px","position":"-40px 0px","url":"https://www.google.com/search?q="},{"name":"GitHub","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px -175px","position":"0px -280px","url":"https://github.com/search?utf8=✓\u0026q="},{"name":"微博","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px -125px","position":"0px -200px","url":"https://s.weibo.com/weibo/"},{"name":"百度","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px 0px","position":"0px 0px","url":"https://www.baidu.com/s?wd="},{"name":"B站","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -125px","position":"-40px -200px","url":"http://search.bilibili.com/all?keyword="},{"name":"知乎","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -100px","position":"-40px -160px","url":"https://www.zhihu.com/search?type=content\u0026q="}]
+        "data": [{"name":"谷歌","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png')  -105px 0px","position":"-40px 0px","url":"https://www.google.com/search?q="},{"name":"GitHub","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px -175px","position":"0px -280px","url":"https://github.com/search?utf8=✓\u0026q="},{"name":"微博","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px -125px","position":"0px -200px","url":"https://s.weibo.com/weibo/"},{"name":"B站","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -125px","position":"-40px -200px","url":"http://search.bilibili.com/all?keyword="},{"name":"百度","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -80px 0px","position":"0px 0px","url":"https://www.baidu.com/s?wd="},{"name":"知乎","img":"url('https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/images/search_icon.png') -105px -100px","position":"-40px -160px","url":"https://www.zhihu.com/search?type=content\u0026q="}]
     };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
@@ -206,6 +206,7 @@ function search() {
             document.cookie = "night=0;path=/"
         }
     }
+    switchNightMode()
     </script>
     <!-- / FB Open Graph -->
     <meta property="og:type" content="article">
@@ -1044,26 +1045,6 @@ function search() {
         href = $(this).attr("href");
         pos = $(href).position().top - 30;
     });
-    (function () {
-      if (document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === '') {
-        if (new Date().getHours() > 22 || new Date().getHours() < 6) {
-          document.body.classList.add('night');
-          document.cookie = "night=1;path=/";
-          console.log('夜间模式开启');
-        } else {
-          document.body.classList.remove('night');
-          document.cookie = "night=0;path=/";
-          console.log('夜间模式关闭');
-        }
-      } else {
-        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-        if (night == '0') {
-          document.body.classList.remove('night');
-        } else if (night == '1') {
-          document.body.classList.add('night');
-        }
-      }
-    })()
     </script>
     <!-- Bottom Scripts -->
     <script src="https://cdn.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/bootstrap.min.js"></script>
